@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-[#8257E5] to-[#271A45] text-zinc-50 font-rubik;
+  }
+}
